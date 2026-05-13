@@ -32,3 +32,21 @@ button {
 button:hover {
     background: #640726;
 }
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+    }
+}
